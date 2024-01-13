@@ -8,13 +8,13 @@ const nextButton = document.getElementById("next")
 console.log(bg, image, nextButton)
 
 let i = 1
-image.src = `/Users/antoinesolovyov/Desktop/tg/photos/sicily-${i}.jpg`
+image.src = `/photos/sicily-${i}.jpg`
 nextButton.onclick = () => {
     i++;
-    image.src = `/Users/antoinesolovyov/Desktop/tg/photos/sicily-${i}.jpg`
+    image.src = `/photos/sicily-${i}.jpg`
 }
 
 prevButton.onclick = () => {
     i--;
-    image.src = `/Users/antoinesolovyov/Desktop/tg/photos/sicily-${i}.jpg`
+    image.src = `/photos/sicily-${i}.jpg`
 }
